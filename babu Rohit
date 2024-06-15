@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit & Anusha's Wedding Invitation</title>
+    <style>
+        body {
+            font-family: 'Arial, sans-serif';
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        .invitation-card {
+            background-color: white;
+            padding: 20px 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin: 50px auto;
+            text-align: center;
+        }
+        .invitation-card h1 {
+            color: #ff6f61;
+            margin-bottom: 10px;
+        }
+        .invitation-card h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .invitation-card p {
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        .invitation-card .details {
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .invitation-card .details p {
+            margin: 5px 0;
+        }
+        .invitation-card .rsvp {
+            margin-top: 30px;
+            font-size: 16px;
+            color: #ff6f61;
+        }
+    </style>
+</head>
+<body>
+    <div class="invitation-card">
+        <h1>Rohit & Anusha</h1>
+        <h2>Request the pleasure of your company</h2>
+        <p>As they celebrate their marriage</p>
+        <div class="details">
+            <p>Date: 15th August 2024</p>
+            <p>Time: 5:00 PM onwards</p>
+            <p>Venue: Grand Palace Hall, City Center</p>
+        </div>
+        <p class="rsvp">Please RSVP by 1st August 2024</p>
+    </div>
+</body>
+</html>
